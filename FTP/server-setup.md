@@ -27,11 +27,11 @@
 
 ## Édition du fichier.
 1) nano /etc/vsftpd.conf
-2) À mettre dans le fichier (*copier le contenu du lien*) : https://github.com/rvHoney/linux-setup-cheatsheet/FTP/vsftpd.conf/                                                                                                                                                                                                                                                                                                                                                                                
+2) À mettre dans le fichier (*copier le contenu du lien*) : https://github.com/rvHoney/linux-setup-cheatsheet/blob/main/FTP/vsftpd.conf
 
 ## Rechargement du serveur et vérification du service
-1) sudo systemctl restart vsftpd
-2) sudo systemctl status vsftpd
+5) sudo systemctl restart vsftpd
+6) sudo systemctl status vsftpd
 
 ## /!\ SI IL EST IMPOSSIBLE DE SE CONNECTER ET QUE L’ERREUR SUIVANTE APPARAIT “500 OOPS: vsftpd: refusing to run with writable root inside chroot()” /!\
 
