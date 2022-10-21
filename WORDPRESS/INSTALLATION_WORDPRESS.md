@@ -6,7 +6,7 @@ Connectez-vous sur votre serveur Linux en SSH afin de télécharger l'archive ZI
 
 ### Téléchargement de l'archive.
 > 1) cd /tmp
-> 2) wget https://wordpress.org/latest.zip -e use_proxy=yes -e **https_proxy=adresseduproxy**:**port**
+> 2) wget https://wordpress.org/latest.zip -e use_proxy=yes -e https_proxy=**adresseduproxy**:**port**
 
 ### Créer une base de données pour Wordpress
 > 1) mariadb
