@@ -16,10 +16,10 @@ Maintenant que les paquets sont à jour nous pouvons passer à l'installation de
 > 1) systemctl enable apache2
 
 ### Activation de plusieurs modules d'Apache.
-> 1) a2enmod rewrite *(réécriture d'URL)*
-> 2) a2enmod deflate *(gestion de compression pour la mise en cache des pages)*
-> 3) a2enmod headers *(pour agir sur les en-têtes HTTP)*
-> 4) a2enmod ssl *(pour gérer les certificats SSL et donc utiliser HTTPS)*
+> 1) sudo a2enmod rewrite *(réécriture d'URL)*
+> 2) sudo a2enmod deflate *(gestion de compression pour la mise en cache des pages)*
+> 3) sudo a2enmod headers *(pour agir sur les en-têtes HTTP)*
+> 4) sudo a2enmod ssl *(pour gérer les certificats SSL et donc utiliser HTTPS)*
 
 ### Redémarrage d'apache2.
 > 1) systemctl restart apache2
@@ -48,7 +48,7 @@ MariaDB est un système de gestion de base de données édité sous licence GPL.
 > 2) mariadb-secure-installation *(dire oui à tout)*
 
 ## Ouvrir mariadb et le redémarrer.
-> 1) mariadb
+> 1) mariadb  
 > 2)systemctl restart mariadb
 
 **Voilà !** Notre serveur LAMP est désormais installé. Il est maintenant possible de passer à l'installation de [*Wordpress*](https://github.com/rvHoney/linux-setup-cheatsheet/blob/main/WORDPRESS/INSTALLATION_WORDPRESS).
