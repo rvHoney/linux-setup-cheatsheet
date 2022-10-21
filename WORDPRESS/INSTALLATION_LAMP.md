@@ -37,7 +37,7 @@ PHP est un langage de scripts généraliste et Open Source, spécialement conçu
 
 ### Création d'un fichier phpinfo.php à la racine du site (pour vérifier que PHP est actif).
 > 1) nano /var/www/html/phpinfo.php
-> **Saisir le code suivant à l'intérieur :** *lien à rentrer*
+> **Saisir le code suivant à l'intérieur :** [*Cliquer ici*](https://github.com/rvHoney/linux-setup-cheatsheet/blob/main/WORDPRESS/phpinfo.php)
 
 ## Installation de MySQL/MariaDB.
 Maintenant que PHP est installé nous pouvons passer à l'installation de MariaDB.  
