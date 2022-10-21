@@ -52,4 +52,4 @@ MariaDB est un système de gestion de base de données édité sous licence GPL.
 > 1) mariadb  
 > 2)systemctl restart mariadb
 
-**Voilà !** Notre serveur LAMP est désormais installé. Il est maintenant possible de passer à l'installation de [*Wordpress*](https://github.com/rvHoney/linux-setup-cheatsheet/blob/main/WORDPRESS/INSTALLATION_WORDPRESS).
+**Voilà !** Notre serveur LAMP est désormais installé. Il est maintenant possible de passer à l'installation de [*Wordpress*][(https://github.com/rvHoney/linux-setup-cheatsheet/blob/main/WORDPRESS/INSTALLATION_WORDPRESS.md)].
