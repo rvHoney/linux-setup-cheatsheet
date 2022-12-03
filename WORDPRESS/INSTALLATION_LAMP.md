@@ -5,7 +5,7 @@ Une fois cette étape terminée il sera possible de commencer à installer **Wor
 ### Se connecter en root et mettre à jour les paquets.
 > 1) su -
 > 2) apt-get update   
-> 3) apt-get sudo
+> 3) apt install sudo
 
 ## Installation d'Apache.
 Maintenant que les paquets sont à jour nous pouvons passer à l'installation de Apache. Apache est un serveur HTTP permettant d'héberger notre site.  
